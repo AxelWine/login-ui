@@ -4,8 +4,8 @@ import "./Header.css";
 function Header() {
     return (
         <>
-            <Navbar bg="light">
-                <Container className="header-container">
+            <Navbar className="header-navbar" bg="light">
+                <Container className="d-flex header-container">
                     Iniciar sesión
                 </Container>
             </Navbar>

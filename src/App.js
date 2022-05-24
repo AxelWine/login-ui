@@ -1,12 +1,12 @@
-import logo from './logo.svg';
-import { Button } from 'react-bootstrap';
+import Header from "./components/Header.js";
+import LoginDialog from "./components/LoginDialog.js";
 import './App.css';
-
 
 function App() {
   return (
     <div>
-      <Button>Hola Mundo</Button>
+      <Header/>
+      <LoginDialog/>
     </div>
   );
 }
