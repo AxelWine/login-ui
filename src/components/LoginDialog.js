@@ -21,6 +21,9 @@ function LoginDialog() {
                     Iniciar sesión
                 </Button>
             </Form>
+
+            o<br/>
+            <a href="#">Crea una cuenta</a>
         </div>
     </div>
   );
